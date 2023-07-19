@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ifkas/restful-api-vercel.git"
+    "url": "git+https://github.com/HopeMarwal/fake_api.git"
   },
   "keywords": [
     "restful",
@@ -18,12 +18,12 @@
     "json",
     "server"
   ],
-  "author": "Ivo Culic",
+  "author": "HopeMArwal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ifkas/restful-api-vercel/issues"
+    "url": "https://github.com/HopeMarwal/fake_api.git/issues"
   },
-  "homepage": "https://github.com/ifkas/restful-api-vercel#readme",
+  "homepage": "https://github.com/HopeMarwal/fake_api.git#readme",
   "dependencies": {},
   "devDependencies": {
     "json-server": "^0.17.1"
