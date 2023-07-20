@@ -1,19 +1,104 @@
 {
-    "posts": [
-        {
-            "id": 8,
-            "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-        },
-        {
-            "id": 2,
-            "title": "qui est esse",
-            "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
-        },
-        {
-            "id": 3,
-            "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
-            "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    "main": {
+            "rca": {
+                "object": [ 
+                    "Asigurarea RCA oferă protecție pentru eventualele prejudicii cauzate de asigurat terțelor persoane prin accidente de autovehicule pe teritoriul Republicii Moldova, și anume: deces sau vătămări corporale; avarii sau distrugeri ale unor bunuri (inclusiv autovehicule)."
+                ],
+                "riscs": [
+                    "Deces sau vătămări corporale; avarii sau distrugeri ale unor bunuri (inclusiv autovehicule), cauzate de asigurat terțelor persoane prin accidente de autovehicule pe teritoriul Republicii Moldova"   
+                ],
+                "progress": [
+                    {
+                        "title": "Alege tipul autovehiculului",
+                        "props": {
+                            "imnatreculat": {
+                                "title": "Autovehicolul este înmatriculat în:",
+                                "values": ["Republica Moldova"]
+                            },
+                            "posesor": {
+                                "title": "Posesorul autovehicoluiui este persoană:",
+                                "values": ["Fizica", "Juridica"]
+                            } ,
+                            "domiciliu": {
+                                "title": "Domiciliul persoanei asigurate"
+                            } 
+                        }
+                    },
+                    {
+                        "title": "Alege tipul autovehiculului",
+                        "props": [
+                            {
+                                "icon": "https://res.cloudinary.com/djr5mw1np/image/upload/v1689783921/next_preset/icons/car_ias7fp.svg",
+                                "title": "Autoturism cu pînă la 9 locuri",
+                                "id": 1
+                            },
+                            {
+                                "icon": "https://res.cloudinary.com/djr5mw1np/image/upload/v1689783923/next_preset/icons/bus_ej8vzl.svg",
+                                "title": "Autovehicule destinate transportului de pers...",
+                                "id": 2
+                            },
+                            {
+                                "icon": "https://res.cloudinary.com/djr5mw1np/image/upload/v1689846701/next_preset/icons/tractor_gnejaf.svg",
+                                "title": "Tractoare rutiere avind puterea motorului",
+                                "id": 3
+                            },
+                            {
+                                "icon": "https://res.cloudinary.com/djr5mw1np/image/upload/v1689783922/next_preset/icons/truck_xjvhm7.svg",
+                                "title": "Camioane si alte autovehicule a caror m...",
+                                "id": 4
+                            },
+                            {
+                                "icon": "https://res.cloudinary.com/djr5mw1np/image/upload/v1689846561/next_preset/icons/Group_lvlbr0.svg",
+                                "title": "Motociclete",
+                                "id": 5
+                            }
+
+                        ]
+                    },
+                    {
+                        "title": "Numarul de locuri",
+                        "props":  [
+                            {
+                                "name": "Numarul de locuri",
+                                "id": 1,
+                                "options": ["Pina la 17 locuri, inclusiv al conducatorului", "De la 18 pina la 30 locuri, inclusiv al conducatorului", "Cu peste 30 locuri", "Troleibuze"]
+                            },
+                            {
+                                "name": "Numărul persoanelor admise la conducere:",
+                                "id": 2,
+                                "options": ["Limitat", "Nelimitat"]
+                            },
+                            {
+                                "name": "Stagiul de conducere a posesorului:",
+                                "id": 3,
+                                "options": ["Limitat", "Nelimitat"]
+                            }
+                        ]
+                           
+                    },
+                    {
+                        "title": "Numarul de locuri",
+                        "props":  [
+                            {
+                                "name": "Sunteti pensionar sau aveti grad de invaliditate?",
+                                "id": 1,
+                                "options": ["Da", "Nu"]
+                            },
+                            {
+                                "name": "Aţi mai încheiat contract de asigurare RCA?",
+                                "id": 2,
+                                "options": ["Da", "Nu"]
+                            },
+                            {
+                                "name": "Asigurare pentru remorci",
+                                "id": 3,
+                                "options": ["Da", "Nu"]
+                            }
+                        ]
+                           
+                    }
+                    
+                ]
+            }
         }
-    ]
 }
